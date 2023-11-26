@@ -1,0 +1,74 @@
+/* baanner section  */
+
+.banner {
+  top: 0;
+  height: 60vh;
+  margin: auto;
+  background: url("/public/string.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner div h1,
+.banner div h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.banner div h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.banner div h2 {
+  color: red;
+  font-size: 2rem;
+}
+
+/* Card section */
+.card-list {
+  width: 90%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: #0001;
+}
+
+.card section {
+  height: 300px;
+  width: 240px;
+  background-color: #fff2;
+  padding: 0px 10px;
+  border-radius: 1px;
+  color: aliceblue;
+  border: 2px solid #fff3;
+}
+
+.card section img {
+  height: 80%;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .card section {
+    width: 250px;
+  }
+
+  .banner div h1 {
+    font-size: 4rem;
+  }
+
+  .banner div h2 {
+    font-size: 3rem;
+  }
+}

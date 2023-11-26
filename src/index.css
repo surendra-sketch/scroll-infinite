@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: #000;
+}
+
+.loader {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.loader .load {
+  height: 70px;
+  width: 70px;
+  background: url("/public/loader.gif") no-repeat center center/cover;
+}
